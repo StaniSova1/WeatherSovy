@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bahiana|Bangers|Carter+One|Caveat+Brush|Patrick+Hand|Permanent+Marker');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+body { 
+    width: 1200px;
+    background-image: url("http://wallpapercave.com/wp/4W2pw5V.jpg");
+    background-size: cover;
+    list-style-type: none;
+
+}
+.row:beforem row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+#head {
+    border-radius: 5%;
+    font-size: 35px;
+    padding: 20px 0px;
+    width: 550px;
+}
+#city-name {
+    padding: 11px 10px 11px 10px;
+}
+#search, #city-name {
+    font-size: 20px;
+    margin: 20px 0px;   
+    border: 2px solid rgba(43, 38, 38, 0.5);
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-info {
+    color: #ffffff;
+    background-color: #5bc0de;
+    border-color: transparent;
+}
+.btn-info.focus {
+    color: #ffffff;
+    background-color: #31b0d5;
+    border-color: rgba(0, 0, 0, 0);
+}
+.btn-info:hover {
+    color: #ffffff;
+    background-color: #31b0d5;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#city-name:focus {
+    color: black;
+}
+#town {
+    width: 1100px;
+    border-radius: 3%;
+}
+#top {
+    margin: 25px;
+    padding-top: 20px;
+}
+#name {
+    font-size: 45px;
+    padding-bottom: 50px; 
+}
+.value {
+    width: 220px;
+    margin-left: 70px;
+}
+.rightside {
+    width: 255px;
+}
+#info, #pic {
+    width: 50%;
+}
+#pic img {
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 29%;
+}
+
+body, #head, #town {
+    margin: 0 auto;
+}
+body, .value, .rightside {
+    text-align: center;
+}
+body {
+    font-family: 'Caveat Brush', cursive;
+}
+body, #search:hover {
+    color: white;
+}
+#head, #city-name, #name {
+    font-weight: bold;
+}
+#head, #search, #city-name, #top, #name {
+    text-transform: uppercase;
+}
+#head, #town {
+    background-color: rgba(43, 38, 38, 0.5);
+}
+#head, #town {
+    margin-top: 50px;
+}
+#search, #pic img {
+    padding: 10px;
+}
+#top, #info {
+    font-size: 28px;
+}
+#info, .value, .rightside, #pic {
+    float: left;
+}
+.value, .rightside {
+    margin-top: 5px;
+}
